@@ -5,10 +5,17 @@
         <title>なにか</title>
     </head>
     
+    <style>@import url(css.css);</style>
+    
     <body>
-    <p id="question">中学のころ勉強はできましたか？</p>
-        <button id="nobutton" type="button" onclick="noButton();">いいえ</button>
-        <button id="yesbutton" type="button" onclick="yesButton();">はい</button>
+        <div class="phrase">
+        <p class="question" id="question">中学のころ勉強はできましたか？</p>
+            </div>
+    
+    <div class="buttonframe">
+        <button id="nobutton" type="button" onclick="noButton();" class="button">いいえ</button>
+        <button id="yesbutton" type="button" onclick="yesButton();" class="button">はい</button>
+        </div>
         <script src="./js/main_javascript.js" charset="UTF-8"></script>
     </body>
     

@@ -1,0 +1,24 @@
+.question{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phrase{
+    text-align: center;
+    font-size: 300%;
+}
+
+.buttonframe{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.button{
+    width:40%;
+    padding: 10%;
+    box-sizing: border-box;
+    font-size: 200%;
+}
