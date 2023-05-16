@@ -2,7 +2,7 @@
     background-color: white;
 }
 
-.content{
+.content {
     padding-top: 10%;
 }
 
@@ -21,7 +21,7 @@
 
 .buttonframe {
     display: flex;
-  justify-content: center;
+    justify-content: center;
 }
 
 .button {
@@ -38,7 +38,7 @@
 
 }
 
-.tweet{
+.tweet {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -50,4 +50,8 @@
     background-color: lightskyblue;
     border: 5px solid white;
     color: white;
+}
+
+.den {
+    font-size: 100%;
 }

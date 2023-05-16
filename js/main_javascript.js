@@ -200,7 +200,7 @@ function c10() {
     setTimeout(function () {
         alert("おめでとうございます！工場に出荷です！");
 
-    document.getElementById("yesbutton").style.visibility = 'visible';
+        document.getElementById("yesbutton").style.visibility = 'visible';
 
         var resetno = document.getElementById("nobutton");
         var resetyes = document.getElementById("yesbutton");
@@ -225,9 +225,9 @@ function reset() {
     resetyes.innerHTML = "はい"
     document.getElementById("yesbutton").style.visibility = 'visible';
     document.getElementById("nobutton").style.visibility = 'visible';
-    
+
     document.getElementById("tweet").style.visibility = 'hidden';
-    
+
     change = document.getElementById("question");
     change.innerHTML = "中学のころ勉強はできましたか？";
 
@@ -239,9 +239,11 @@ function reset() {
 function yesButton() {
     var yes = 0;
     furiwake(yes);
+    document.getElementById("den").style.visibility = 'hidden';
 }
 
 function noButton() {
     var no = 1;
     furiwake(no);
+    document.getElementById("den").style.visibility = 'hidden';
 }
